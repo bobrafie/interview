@@ -40,52 +40,6 @@ __The purpose of this test is to determine your ability to create custom compone
 5.  Provide a public API that retrieves the selection state of the component in JSON format (semi-checked is false). API result format is up to you.
 6.  Submit code in a [JSFiddle](http://jsfiddle.net) so that it can be easily viewed and analyzed.
 
-### Input for the Component
-
-    jsonData = [
-        {
-            "name": "Arizona",
-            "selected": true,
-            "children": [
-                { "name": "Phoenix", "selected": true },
-                { "name": "Tucson", "selected": true }
-            ]
-        },
-        {
-            "name": "California",
-            "children": [
-                { "name": "Fresno" },
-                { "name": "Los Angeles", "selected": true },
-                { "name": "Sacramento" },
-                { "name": "San Diego" },
-                { "name": "San Francisco" },
-                { "name": "San Jose" },
-            ]
-        },
-        {
-            "name": "Oregon",
-            "children": [
-                { "name": "Portland" },
-                { "name": "Eugene" }
-            ]
-        },
-        {
-            "name": "Nevada",
-            "children": [
-                { "name": "Las Vegas" },
-                { "name": "Reno" }
-            ]
-        },
-        {
-            "name": "New Mexico",
-            "children": [
-                { "name": "Albuquerque" },
-                { "name": "Las Cruces" },
-                { "name": "Santa Fe" }
-            ]
-        }
-    ];
-
 ### Data Load and Transformation
 
 1. Perform an ajax call like below.
@@ -94,7 +48,7 @@ __The purpose of this test is to determine your ability to create custom compone
 #### Starter Code
     
     $.ajax({
-        url: "https://rawgit.com/cskevint/interview/master/checkbox_tree.json"
+        url: "https://rawgit.com/bobrafie/interview/master/checkbox_tree.json"
     }).done(function (result) {
         $(document.body).append(JSON.stringify(result));
     });
