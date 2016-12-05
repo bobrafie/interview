@@ -22,7 +22,7 @@ Write the HTML, CSS and JavaScript needed to display a domino tile and populate 
 
 ### Code requirements
 
-1.  You can use base JavaScript libraries such as jQuery, underscore.js, Backbone.js, etc.
+1.  You can use base JavaScript libraries such as jQuery, underscore, react, etc.
 2.  Submit code in a [JSFiddle](http://jsfiddle.net) so that it can be easily viewed and analyzed.
 
 ### Evaluation
