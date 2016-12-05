@@ -5,16 +5,16 @@ Solve any or all of these interview problems for a software engineering position
 
 1. Palindrome
  
-    https://github.com/bob/interview/blob/master/palindrome.md
+    https://github.com/bobrafie/interview/blob/master/palindrome.md
 
 1. Maze Solver
  
-    https://github.com/bob/interview/blob/master/maze.md
+    https://github.com/bobrafie/interview/blob/master/maze.md
 
 1. Checkbox Tree
 
-    https://github.com/bob/interview/blob/master/checkbox_tree.md
+    https://github.com/bobrafie/interview/blob/master/checkbox_tree.md
 
 1. Domino
 
-    https://github.com/bob/interview/blob/master/domino.md
+    https://github.com/bobrafie/interview/blob/master/domino.md
