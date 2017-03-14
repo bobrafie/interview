@@ -3,7 +3,7 @@ Checkbox Tree
 
 ### Task 
 
-Write a custom checkbox-tree component by hand. 
+Write a custom checkbox-tree component by hand, using this data: https://rawgit.com/bobrafie/interview/master/checkbox_tree.json
 
 __The purpose of this test is to determine your ability to create custom components on top of existing, base-functionality JavaScript libraries (e.g. jQuery). You CANNOT use exisiting UI component libraries, plugins or extensions that render a tree with checkbox capabilities.__
 
@@ -25,20 +25,17 @@ __The purpose of this test is to determine your ability to create custom compone
 
 ### Component requirements
 
-1.  Only nodes with children can be opened or closed using a plus/minus or right triangle/down triangle (triangle with CSS preferred).
-2.  Each node has a checkbox which does not impact closed/open state (checkboxes indicate selection state e.g. for a filter).
-3.  If any node or any of its children is initially selected, open it by default at render time. 
-4.  [Optional] Provide a UI-only semi-checked state for nodes that have some children checked but not all.
-5.  [Optional] Make it pretty.
+1.  If any node or any of its children is initially selected, open it by default at render time. 
+2.  Only nodes with children can be opened or closed using a plus/minus or right triangle/down triangle (triangle with CSS preferred).
+3.  Each node has a checkbox which does not impact closed/open state (checkboxes indicate selection state e.g. for a filter).
 
 ### Code requirements
 
-1.  You can use base JavaScript libraries such as jQuery, underscore.js, Backbone.js, etc.
+1.  You can use base JavaScript libraries such as jQuery, underscore.js, React, Backbone.js, etc.
 2.  HTML markup should be written through JavaScript either as templates or by creating DOM nodes.
 3.  CSS should be contained in its own file which could be included in any application page.
 4.  Component constructor takes in JSON data as demonstrated below.
 5.  Provide a public API that retrieves the selection state of the component in JSON format (semi-checked is false). API result format is up to you.
-6.  Submit code in a [JSFiddle](http://jsfiddle.net) so that it can be easily viewed and analyzed.
 
 ### Data Load and Transformation
 
@@ -55,10 +52,6 @@ __The purpose of this test is to determine your ability to create custom compone
 
 ### Usage
 
-    $("#cities").checkboxTree(jsonData);
-    
-or
-    
     var checkboxTree = new CheckboxTree({
         el: "#cities",
         data: jsonData
